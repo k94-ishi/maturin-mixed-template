@@ -1,4 +1,4 @@
-import my_project
+from my_project import my_project
 
 
 def test_sum_as_string():
