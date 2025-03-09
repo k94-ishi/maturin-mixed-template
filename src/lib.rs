@@ -1,11 +1,9 @@
 #[cfg(feature = "python")]
 use pyo3::prelude::*;
 
-
 pub fn sum_as_string_rs(a: usize, b: usize) -> String {
     (a + b).to_string()
 }
-
 
 #[cfg(feature = "python")]
 #[pyfunction]
